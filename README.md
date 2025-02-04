@@ -1,4 +1,4 @@
-# ⏳ Temporizador de Um Disparo (One Shot) - Raspberry Pi Pico W
+# ⏳ Temporizador de Um Disparo (One Shot) 
 Este projeto implementa um sistema de temporização baseado em evento único usando a função add_alarm_in_ms() do Pico SDK. O acionamento dos LEDs ocorre após o clique em um botão (pushbutton), seguindo um comportamento programado.
 
 A atividade será desenvolvida no ambiente VS Code, utilizando a linguagem C e o simulador Wokwi para testes. Além disso, será realizado um experimento com o LED RGB e um botão adicional usando a ferramenta BitDogLab.
