@@ -53,5 +53,3 @@ Quando pressionado:
 Durante a execução da sequência, o botão não pode ser pressionado novamente.
 
 Apenas quando todos os LEDs forem apagados, o botão pode iniciar um novo ciclo.
-
-Um experimento adicional será realizado com um LED RGB utilizando os GPIOs 11, 12 e 13, além do Botão A (GPIO 05) no BitDogLab.
