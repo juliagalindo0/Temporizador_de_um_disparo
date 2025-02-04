@@ -15,11 +15,11 @@ volatile bool is_running = false;
 // Callback para desligar LEDs em sequência
 int64_t turn_off_callback(alarm_id_t id, void *user_data) {
     if (state == 0) {
-        gpio_put(LED_RED, 0);
+        gpio_put(LED_GREEN, 0);
     } else if (state == 1) {
         gpio_put(LED_BLUE, 0);
     } else if (state == 2) {
-        gpio_put(LED_GREEN, 0);
+        gpio_put(LED_RED, 0);
         is_running = false; // Permite novo acionamento
         return 0;
     }
