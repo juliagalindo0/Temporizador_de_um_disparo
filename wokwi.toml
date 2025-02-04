@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = 'Temporizador_de_um_disparo.uf2'
-elf = 'Temporizador_de_um_disparo.elf'
+firmware = 'build/Temporizador_de_um_disparo.uf2'
+elf = 'build/Temporizador_de_um_disparo.elf'
